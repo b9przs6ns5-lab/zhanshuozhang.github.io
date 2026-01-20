@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help · Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="row">
+      <div class="brand">
+        <h1>Helsingin yliopisto</h1>
+        <div class="sub">Help & information · Unofficial</div>
+        <div class="nav">
+          <a href="index.html">Dashboard</a><a href="profile.html">Personal details</a><a href="studies.html">Study records</a>
+          <a href="degree.html">Degree progress</a><a href="timeline.html">Timeline</a><a href="services.html">Services</a><a href="help.html">Help</a>
+        </div>
+      </div>
+      <div class="userpill">Zhanshuo Zhang<br />012153503</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h3>About this portal</h3>
+      <p>This is a private, personal academic portal created for personal reference and reflection.</p>
+      <ul class="muted">
+        <li>Unofficial · Not affiliated with University of Helsinki official systems</li>
+        <li>Read-only design: no editing of records</li>
+        <li>Local storage used: last login time, dark mode preference</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Privacy</h3>
+      <p class="muted">No personal data is transmitted by this static website. GitHub Pages hosts the files you upload.</p>
+    </div>
+
+    <div class="card">
+      <h3>Tips</h3>
+      <ul class="muted">
+        <li>Add to Home Screen on iPad for an app-like experience</li>
+        <li>Use browser print to save pages as PDF</li>
+        <li>Keep photos and files in repository root for consistent loading</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">Unofficial · Private use only</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timeline · Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="row">
+      <div class="brand">
+        <h1>Helsingin yliopisto</h1>
+        <div class="sub">Academic timeline · Unofficial</div>
+        <div class="nav">
+          <a href="index.html">Dashboard</a><a href="profile.html">Personal details</a><a href="studies.html">Study records</a>
+          <a href="degree.html">Degree progress</a><a href="timeline.html">Timeline</a><a href="services.html">Services</a><a href="help.html">Help</a>
+        </div>
+      </div>
+      <div class="userpill">Zhanshuo Zhang<br />012153503</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="notice">Key academic events (personal copy).</div>
+
+    <div class="card">
+      <h3>Timeline</h3>
+      <table class="table">
+        <thead><tr><th>Date</th><th>Event</th></tr></thead>
+        <tbody>
+          <tr><td>01.09.2023</td><td>Study right activated</td></tr>
+          <tr><td>06.01.2024</td><td>Econometrics I completed</td></tr>
+          <tr><td>14.08.2024</td><td>Econometrics II completed</td></tr>
+          <tr><td>14.04.2025</td><td>Bachelor’s thesis seminar registered</td></tr>
+          <tr><td>05.10.2025</td><td>Bachelor’s thesis registered</td></tr>
+          <tr><td>20.10.2025</td><td>Degree requirements fulfilled</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="footer">Archived record · Read-only</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Degree progress · Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="row">
+      <div class="brand">
+        <h1>Helsingin yliopisto</h1>
+        <div class="sub">Degree progress · Unofficial</div>
+        <div class="nav">
+          <a href="index.html">Dashboard</a><a href="profile.html">Personal details</a><a href="studies.html">Study records</a>
+          <a href="degree.html">Degree progress</a><a href="timeline.html">Timeline</a><a href="services.html">Services</a><a href="help.html">Help</a>
+        </div>
+      </div>
+      <div class="userpill">Zhanshuo Zhang<br />012153503</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="notice">Degree requirement view (personal copy). This portal does not issue certificates.</div>
+
+    <div class="card">
+      <h2>Bachelor of International Business</h2>
+      <p class="muted">Mode: Full-time · Language: English · Total: 180 ECTS</p>
+      <p><b>Requirements fulfilled:</b> 20 October 2025</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Core studies</h3>
+        <p><b>Completed</b></p>
+        <p class="muted">Economics foundations, quantitative methods</p>
+      </div>
+      <div class="card">
+        <h3>Major studies</h3>
+        <p><b>Completed</b></p>
+        <p class="muted">International business, strategy, markets</p>
+      </div>
+      <div class="card">
+        <h3>Elective studies</h3>
+        <p><b>Completed</b></p>
+        <p class="muted">Selected additional studies</p>
+      </div>
+      <div class="card">
+        <h3>Thesis</h3>
+        <p><b>Completed</b></p>
+        <p class="muted">Seminar + thesis registered</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Notes</h3>
+      <ul class="muted">
+        <li>Record is archived and read-only</li>
+        <li>For personal reference only</li>
+        <li>Not affiliated with the University of Helsinki official systems</li>
+      </ul>
+      <p style="margin-top:10px;"><button class="btn" style="border-color: var(--border); color: var(--text); background: var(--card);" onclick="window.print()">Print this page</button></p>
+    </div>
+  </div>
+
+  <div class="footer">Degree progress view · Personal portal</div>
+</body>
+</html>

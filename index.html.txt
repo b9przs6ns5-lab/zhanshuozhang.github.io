@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portal · Helsingin yliopisto</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="topbar">
+    <div class="row">
+      <div class="brand">
+        <h1>Helsingin yliopisto</h1>
+        <div class="sub">Private Student Portal · Unofficial · Personal use only</div>
+        <div class="nav">
+          <a href="index.html">Dashboard</a>
+          <a href="profile.html">Personal details</a>
+          <a href="studies.html">Study records</a>
+          <a href="degree.html">Degree progress</a>
+          <a href="timeline.html">Timeline</a>
+          <a href="services.html">Services</a>
+          <a href="help.html">Help</a>
+        </div>
+      </div>
+      <div class="userpill">
+        Zhanshuo Zhang<br />012153503
+        <div class="actions">
+          <button class="btn" onclick="toggleDark()">Dark mode</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="notice">
+      This is a private, unofficial portal for personal reference. Records are read-only.
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Student status</h3>
+        <p><b>Archived</b> (Degree completed)</p>
+        <p class="muted">Programme: International Business · Business School</p>
+      </div>
+
+      <div class="card">
+        <h3>Credits</h3>
+        <p><b>180 / 180 ECTS</b></p>
+        <p class="muted">All degree requirements fulfilled</p>
+      </div>
+
+      <div class="card">
+        <h3>Study right</h3>
+        <p><b>Valid period</b></p>
+        <p class="muted">Start: 01.09.2023 · Completion: 20.10.2025</p>
+      </div>
+
+      <div class="card">
+        <h3>Last login</h3>
+        <p id="lastLogin">—</p>
+        <p class="muted">For occasional access</p>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:14px;">
+      <div class="card">
+        <h3>System messages</h3>
+        <ul class="muted">
+          <li>No pending tasks</li>
+          <li>No active notifications</li>
+          <li>All records up to date</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Quick actions</h3>
+        <p><a class="link" href="studies.html">View study records</a></p>
+        <p><a class="link" href="degree.html">View degree progress</a></p>
+        <p><a class="link" href="timeline.html">View timeline</a></p>
+        <p><a class="link" href="help.html">System info</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    System version: 1.0 (personal) · Record status: archived · Data scope: single student record
+  </div>
+
+  <script>
+    setLastLogin();
+    showLastLogin("lastLogin");
+  </script>
+</body>
+</html>
